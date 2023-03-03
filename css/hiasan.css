@@ -1,0 +1,144 @@
+/* Css exsternal inlink */
+
+/* Bagian Depan */
+
+fieldset, legend{
+     border: gray groove 5px;
+}
+
+
+/* Pembatas atau lebar tampilan */
+* {
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+ }
+
+ /* Bagian Wellcome Website */
+ .banner {
+     height: 60vh;
+     background-image: url('banner.jpg');
+     background-size: cover;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .banner:after {
+     content:'';
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(97, 84, 182, 0.6);
+ }
+ .banner h2 {
+     color: #fff;
+     z-index: 1;
+     padding: 20px 25px;
+     border: 3px solid #fff;
+ }
+ section {
+     padding: 50px 0;
+ }
+
+ img {
+     margin: 0 auto;
+     left: 100%;
+ }
+
+ /* Bagian header */
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+ .medsos {
+     padding: 5px 0;
+     background-color: #248f14;
+ }
+ .medsos ul li {
+     display: inline-block;
+     color: #fff;
+     margin-right: 10px;
+ }
+ .container {
+     width: 80%;
+     margin: 0 auto;  
+ }
+ .container:after {
+     content: '';
+     display: block;
+     clear: both;
+ }
+ header h1 {
+     float: left;
+     padding: 15px 0;
+     color: #148f77;
+ }
+ header ul {
+     float: right;
+ }
+ header ul li {
+     display: inline-block;
+ }
+ header ul li a{
+     padding: 25px 20px;
+     display: inline-block;
+ }
+ header ul li a:hover{
+     background-color: #148f77;
+     color: #fff;
+ }
+ .active {
+     background-color: #148f77;
+     color: #fff;
+ }
+ 
+
+ .icon {
+     width: 70px;
+     height: 70px;
+     border: 1px solid;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 70px;
+     font-size: 20px;
+     margin: 0 auto;
+ }
+
+
+
+/* Bagian Footer */
+
+ .container {
+     width: 80%;
+     margin: 0 auto;  
+ }
+ 
+ footer {
+     padding: 30px 0;
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+ }
+ .label{
+     background-color: #148f77;
+     color: #fff;
+ }
+
+
+/* Bagian Button  */
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
